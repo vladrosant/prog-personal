@@ -1,0 +1,12 @@
+input_str = input()
+e1_str, e2_str, e3_str = input_str.split()
+e1 = int(e1_str)
+e2 = int(e2_str)
+e3 = int(e3_str)
+
+num = [e1, e2, e3]
+num.sort()
+
+print(f"{num[0]}\n{num[1]}\n{num[2]}")
+print('\n')
+print(f"{e1}\n{e2}\n{e3}")

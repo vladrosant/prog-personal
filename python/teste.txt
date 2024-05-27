@@ -1,0 +1,18 @@
+inicio_algoritmo
+
+int i, n, x: inteiro
+V[]: vetor
+
+para (i=0 de i até n passo 1) faça:
+inicio
+    se (x==V[i])
+        retorna i
+    senão
+        retorna -1
+    fim_se
+fim_para
+
+fim_algoritmo
+
+
+
