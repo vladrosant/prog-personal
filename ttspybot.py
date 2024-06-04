@@ -13,11 +13,11 @@ root.geometry('500x350')
 class MyBot(commands.Bot):
 
     def __init__(self):
-        super().__init__(token='your token',
-                         client_id='your ID',
-                         nick='your usename',
+        super().__init__(token='qb9x82gr01nw2w8i501urt6hj2cpxn',
+                         client_id='xxhssc8t01wngo1ejsx7lia8p53rq2',
+                         nick='VamPipo',
                          prefix='',
-                         initial_channels=['channel name'])
+                         initial_channels=['VamPipo'])
         self.engine = pyttsx3.init()
         self.engine.setProperty('volume', 1)
         self.engine.setProperty('voice', 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_PT-BR_MARIA_11.0')
